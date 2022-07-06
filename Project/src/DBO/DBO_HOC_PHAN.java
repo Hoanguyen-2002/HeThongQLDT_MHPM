@@ -4,14 +4,7 @@ import java.util.Date;
 
 public class DBO_HOC_PHAN {
 
-    private String MaHocPhan;
-    private String TenHocPhan;
-    private int SoTinChi;
-    private String PhongHoc;
-    private String MaGiangVien;
-    private int NamHoc;
-    private int TenHocKy;
-    private int SoTietHoc;
+    
 
     public int getNamHoc() {
         return NamHoc;
