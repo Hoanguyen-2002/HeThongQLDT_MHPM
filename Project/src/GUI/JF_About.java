@@ -15,7 +15,7 @@ public class JF_About extends javax.swing.JFrame {
      * Creates new form JF_About
      */
     public JF_About() {
-        
+        initComponents();
          
     }
 
