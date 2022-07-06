@@ -4,7 +4,7 @@ import MeThodShow.MyMethod;
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import DBO.DBO_Finding;
-import java.util.ArrayList;
+
 
 public class DAL_Finding extends DataAccessHelper {
 
