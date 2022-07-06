@@ -69,10 +69,10 @@ public class JP_Diem extends javax.swing.JPanel {
         Column.add("Tên Sinh Viên");
         Column.add("Mã Học Phần");
         Column.add("Tên Học Phần");
-        Column.add("Điểm C");
-        Column.add("Điểm B");
-        Column.add("Điểm TL1");
-        Column.add("Điểm TL2");
+        Column.add("Điểm Chuyên Cần");
+        Column.add("Điểm KT");
+        Column.add("Điểm GK");
+        Column.add("Điểm CK");
         Column.add("Điểm TB");
         Column.add("Điểm Chữ");
         Column.add("Mã Khoa");
@@ -338,7 +338,7 @@ public class JP_Diem extends javax.swing.JPanel {
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel5.setText("Trọng số");
+        jLabel5.setText("Kiểm tra");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 0, 0));

@@ -123,12 +123,16 @@
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                          <Component id="txtMaHocPhan" min="-2" pref="190" max="-2" attributes="0"/>
-                          <Component id="txtDiemC" min="-2" pref="190" max="-2" attributes="0"/>
-                          <Component id="txtDiemThiL1" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
-                          <Component id="txtDiemThiL2" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
-                          <Component id="txtDiemB" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="txtMaHocPhan" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="txtDiemC" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="txtDiemThiL1" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="txtDiemThiL2" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="txtDiemB" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbTL2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="txtMaSinhVien" min="-2" pref="190" max="-2" attributes="0"/>
@@ -195,6 +199,7 @@
                       <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                           <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtDiemThiL2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="cbTL2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                           <Component id="btnThem" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
@@ -237,7 +242,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Tr&#x1ecd;ng s&#x1ed1;"/>
+            <Property name="text" type="java.lang.String" value="Ki&#x1ec3;m tra "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
@@ -370,6 +375,21 @@
             </Component>
           </SubComponents>
         </Container>
+        <Component class="javax.swing.JCheckBox" name="cbTL2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="f7" id="Inactive Caption Border" palette="2" red="f4" type="palette"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Thi cu&#x1ed1;i k&#x1ef3;"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbTL2ActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>

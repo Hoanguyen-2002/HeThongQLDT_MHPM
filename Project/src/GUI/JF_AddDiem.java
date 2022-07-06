@@ -65,6 +65,7 @@ public class JF_AddDiem extends javax.swing.JFrame {
         btnThoat = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         txtCheck = new javax.swing.JTextArea();
+        cbTL2 = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -104,7 +105,7 @@ public class JF_AddDiem extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel4.setText("Trọng số");
+        jLabel4.setText("Kiểm tra ");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 51));
@@ -163,6 +164,16 @@ public class JF_AddDiem extends javax.swing.JFrame {
         txtCheck.setEnabled(false);
         jScrollPane1.setViewportView(txtCheck);
 
+        cbTL2.setBackground(java.awt.SystemColor.inactiveCaptionBorder);
+        cbTL2.setText("Thi cuối kỳ");
+        cbTL2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        cbTL2.setEnabled(false);
+        cbTL2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbTL2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -183,12 +194,15 @@ public class JF_AddDiem extends javax.swing.JFrame {
                     .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(txtMaHocPhan, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtDiemC, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtDiemThiL1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtDiemThiL2, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtDiemB, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(txtMaHocPhan, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDiemC, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDiemThiL1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDiemThiL2, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDiemB, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(cbTL2))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(txtMaSinhVien, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(20, 20, 20)
@@ -237,7 +251,8 @@ public class JF_AddDiem extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel7)
-                        .addComponent(txtDiemThiL2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtDiemThiL2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cbTL2))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(btnThem, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnThoat, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -304,8 +319,8 @@ public class JF_AddDiem extends javax.swing.JFrame {
         txtDiemB.setEnabled(flag);
         txtDiemC.setEnabled(flag);
         txtDiemThiL1.setEnabled(flag);
-
-
+        cbTL2.setEnabled(flag);
+        txtDiemThiL2.setEnabled(cbTL2.isSelected());
     }//GEN-LAST:event_btnCheckActionPerformed
 
     private void btnThemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemActionPerformed
@@ -321,6 +336,18 @@ public class JF_AddDiem extends javax.swing.JFrame {
             Float diemTL1 = Float.parseFloat(txtDiemThiL1.getText());
             Float diemTL2 = null;
             DBO_DIEM obj = new DBO_DIEM();
+            if (cbTL2.isSelected()) {
+                if (txtDiemThiL2.getText().isEmpty()) {
+                    method.showMessegaWa("Điểm thi lần 2 không được rỗng");
+                    check = false;
+                } else {
+                    diemTL2 = Float.parseFloat(txtDiemThiL2.getText());
+                    obj.setDiemTL2(diemTL2);
+                    check = true;
+                }
+            } else {
+                check = true;
+            }
             if (check) {
                 obj.setMaSinhVien(mssv);
                 obj.setMaHocPhan(mahp);
@@ -344,6 +371,10 @@ public class JF_AddDiem extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnThemActionPerformed
 
+    private void cbTL2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbTL2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbTL2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -352,6 +383,7 @@ public class JF_AddDiem extends javax.swing.JFrame {
     private javax.swing.JButton btnCheck;
     private javax.swing.JButton btnThem;
     private javax.swing.JButton btnThoat;
+    private javax.swing.JCheckBox cbTL2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

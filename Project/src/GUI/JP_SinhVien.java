@@ -66,7 +66,7 @@ public class JP_SinhVien extends javax.swing.JPanel {
         Column.add("Mã Hệ Đào Tạo");
         Column.add("Thời Gian Học");
         Column.add("Số Điện Thoại Gia Đình");
-        Column.add("Họ Tên Ba");
+        Column.add("Họ Tên Bố");
         Column.add("Họ Tên Mẹ");
         Column.add("Nơi Sinh");
         Column.add("Ngày Nhập Học");
