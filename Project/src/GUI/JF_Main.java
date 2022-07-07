@@ -99,7 +99,6 @@ public class JF_Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle(" Student System Manager");
-        setPreferredSize(new java.awt.Dimension(1300, 793));
         setSize(new java.awt.Dimension(1300, 793));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1300, 754));
@@ -275,12 +274,12 @@ public class JF_Main extends javax.swing.JFrame {
 
         jMenuBar1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/mySystem.png"))); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/systemIcon.png"))); // NOI18N
         jMenu1.setText("Hệ Thống");
         jMenu1.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
 
         btnDangNhap.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        btnDangNhap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/Customer.png"))); // NOI18N
+        btnDangNhap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/loginIcon.png"))); // NOI18N
         btnDangNhap.setText("Đăng Nhập");
         btnDangNhap.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDangNhap.addActionListener(new java.awt.event.ActionListener() {
@@ -291,7 +290,7 @@ public class JF_Main extends javax.swing.JFrame {
         jMenu1.add(btnDangNhap);
 
         btnTaiKhoan.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_K, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        btnTaiKhoan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/User-32x32.png"))); // NOI18N
+        btnTaiKhoan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/userIcon.png"))); // NOI18N
         btnTaiKhoan.setText("Tài Khoản");
         btnTaiKhoan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnTaiKhoan.addActionListener(new java.awt.event.ActionListener() {
@@ -302,7 +301,7 @@ public class JF_Main extends javax.swing.JFrame {
         jMenu1.add(btnTaiKhoan);
 
         btnDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        btnDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/001_02.png"))); // NOI18N
+        btnDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/LogoutIcon.png"))); // NOI18N
         btnDangXuat.setText("Đăng Xuất");
         btnDangXuat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDangXuat.addActionListener(new java.awt.event.ActionListener() {
@@ -313,7 +312,7 @@ public class JF_Main extends javax.swing.JFrame {
         jMenu1.add(btnDangXuat);
 
         btnThoat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_T, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        btnThoat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/logout.png"))); // NOI18N
+        btnThoat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/exitIcon.png"))); // NOI18N
         btnThoat.setText("Thoát");
         btnThoat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnThoat.addActionListener(new java.awt.event.ActionListener() {
@@ -325,7 +324,7 @@ public class JF_Main extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/line-chart-icon.png"))); // NOI18N
+        jMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/ThongKeIcon.png"))); // NOI18N
         jMenu.setText("Thống Kê");
         jMenu.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jMenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -335,7 +334,7 @@ public class JF_Main extends javax.swing.JFrame {
         });
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/List-TonGiao.png"))); // NOI18N
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/Statistics-32.png"))); // NOI18N
         jMenuItem1.setText("Thống Kê");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -346,7 +345,7 @@ public class JF_Main extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/mySearch.png"))); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/FindIcon.png"))); // NOI18N
         jMenu2.setText("Tìm Kiếm");
         jMenu2.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -356,8 +355,8 @@ public class JF_Main extends javax.swing.JFrame {
         });
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/about.png"))); // NOI18N
-        jMenu3.setText("About");
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/InformationIcon.png"))); // NOI18N
+        jMenu3.setText("Thông tin");
         jMenu3.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jMenu3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -371,8 +370,8 @@ public class JF_Main extends javax.swing.JFrame {
         });
         jMenuBar1.add(jMenu3);
 
-        jMenuHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/Help-Support-icon.png"))); // NOI18N
-        jMenuHelp.setText("Help");
+        jMenuHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/HelpIcon.png"))); // NOI18N
+        jMenuHelp.setText("Trợ giúp");
         jMenuHelp.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jMenuHelp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
