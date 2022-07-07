@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GUI;
 
 import DBO.DBO_VIEW_DIEM_SV_MON_HOC;
@@ -32,7 +28,7 @@ import jxl.write.WriteException;
 
 public class JF_ThongKe extends javax.swing.JFrame {
 
-    // lst get data
+
     ArrayList<DBO_KHOA> lstCBKhoa = null;
     ArrayList<DBO_LOP> lstCBLop = null;
     ArrayList<DBO_HOC_PHAN> lstCBHP = null;
@@ -42,7 +38,7 @@ public class JF_ThongKe extends javax.swing.JFrame {
     ArrayList<DBO_VIEW_THONGKE_HOCBONG> lstViewTKHB = null;
     ArrayList<Integer> lstInt = null;
 
-    // DLL tr data
+
     DLL_HocPhan dLL_HocPhan = new DLL_HocPhan();
     DLL_Khoa dLL_Khoa = new DLL_Khoa();
     DLL_Lop dLL_Lop = new DLL_Lop();
