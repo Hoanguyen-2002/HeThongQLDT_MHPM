@@ -1,8 +1,6 @@
 package DLL;
 
-import DAL.DAL_GiangVien;
-import DBO.DBO_GIANG_VIEN;
-import java.util.ArrayList;
+
 
 public class DLL_GiangVien {
 
