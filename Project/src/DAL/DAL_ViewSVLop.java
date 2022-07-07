@@ -9,7 +9,7 @@ public class DAL_ViewSVLop extends DataAccessHelper{
     CallableStatement store_proc = null;
     ResultSet rs = null;
     
-    private ArrayList<DBO_VIEW_SV_LOP> getSVLop(String malop){
+    public ArrayList<DBO_VIEW_SV_LOP> getSVLop(String malop){
         ArrayList<DBO_VIEW_SV_LOP> objs = new ArrayList<>();
         try {
             getConnect();
