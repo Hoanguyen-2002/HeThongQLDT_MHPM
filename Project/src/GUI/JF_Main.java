@@ -128,7 +128,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnSinhVien.setBackground(new java.awt.Color(255, 0, 51));
         btnSinhVien.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnSinhVien.setForeground(new java.awt.Color(255, 255, 255));
-        btnSinhVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/myStu.png"))); // NOI18N
+        btnSinhVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/student-readingIcon.png"))); // NOI18N
         btnSinhVien.setText("Sinh Viên    ");
         btnSinhVien.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSinhVien.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +140,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnGiangVien.setBackground(new java.awt.Color(255, 0, 51));
         btnGiangVien.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnGiangVien.setForeground(new java.awt.Color(255, 255, 255));
-        btnGiangVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/myTea.png"))); // NOI18N
+        btnGiangVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/teacherIcon.png"))); // NOI18N
         btnGiangVien.setText("Giảng Viên");
         btnGiangVien.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGiangVien.addActionListener(new java.awt.event.ActionListener() {
@@ -152,7 +152,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnKhoa.setBackground(new java.awt.Color(255, 0, 51));
         btnKhoa.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnKhoa.setForeground(new java.awt.Color(255, 255, 255));
-        btnKhoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/myKhoa.png"))); // NOI18N
+        btnKhoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/schoolIcon.png"))); // NOI18N
         btnKhoa.setText("Khoa       ");
         btnKhoa.setToolTipText("");
         btnKhoa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -165,7 +165,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnClass.setBackground(new java.awt.Color(255, 0, 51));
         btnClass.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnClass.setForeground(new java.awt.Color(255, 255, 255));
-        btnClass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/myClass.png"))); // NOI18N
+        btnClass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/ClassiCon.png"))); // NOI18N
         btnClass.setText("Lớp          ");
         btnClass.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnClass.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnMonHoc.setBackground(new java.awt.Color(255, 0, 51));
         btnMonHoc.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnMonHoc.setForeground(new java.awt.Color(255, 255, 255));
-        btnMonHoc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/mySub.png"))); // NOI18N
+        btnMonHoc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/bookIcon.png"))); // NOI18N
         btnMonHoc.setText("Học Phần  ");
         btnMonHoc.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMonHoc.addActionListener(new java.awt.event.ActionListener() {
@@ -189,7 +189,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnDiem.setBackground(new java.awt.Color(255, 0, 51));
         btnDiem.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnDiem.setForeground(new java.awt.Color(255, 255, 255));
-        btnDiem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/myScor.png"))); // NOI18N
+        btnDiem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/documentIcon.png"))); // NOI18N
         btnDiem.setText("Điểm        ");
         btnDiem.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDiem.addActionListener(new java.awt.event.ActionListener() {
@@ -201,7 +201,7 @@ public class JF_Main extends javax.swing.JFrame {
         btnDaoTao.setBackground(new java.awt.Color(255, 0, 51));
         btnDaoTao.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
         btnDaoTao.setForeground(new java.awt.Color(255, 255, 255));
-        btnDaoTao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/Supplier.png"))); // NOI18N
+        btnDaoTao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/DaoTaoIocn.png"))); // NOI18N
         btnDaoTao.setText("Đào Tạo   ");
         btnDaoTao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDaoTao.setPreferredSize(new java.awt.Dimension(127, 33));
@@ -270,7 +270,7 @@ public class JF_Main extends javax.swing.JFrame {
         jLabel1.setPreferredSize(new java.awt.Dimension(1265, 618));
         jtbHienThi.addTab("Trang Chủ", jLabel1);
 
-        jPanel1.add(jtbHienThi, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 130, 1280, 620));
+        jPanel1.add(jtbHienThi, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 130, 1300, 620));
 
         jMenuBar1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
 
@@ -592,13 +592,8 @@ public class JF_Main extends javax.swing.JFrame {
     }//GEN-LAST:event_btnTaiKhoanActionPerformed
 
     private void jMenuHelpMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuHelpMouseClicked
-        try {
-            String command[] = new String[]{"hh.exe", "src\\Help.chm"};
-            Process child = Runtime.getRuntime().exec(command);
-
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage(), "Notice", JOptionPane.OK_OPTION);
-        }
+        JF_Help help = new JF_Help();
+        help.setVisible(true);
     }//GEN-LAST:event_jMenuHelpMouseClicked
 
     private void jMenu3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu3MouseClicked

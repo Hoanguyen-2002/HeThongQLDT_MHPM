@@ -362,7 +362,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/myStu.png"/>
+                      <Image iconType="3" name="/Icon/student-readingIcon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Sinh Vi&#xea;n    "/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -385,7 +385,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/myTea.png"/>
+                      <Image iconType="3" name="/Icon/teacherIcon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Gi&#x1ea3;ng Vi&#xea;n"/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -408,7 +408,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/myKhoa.png"/>
+                      <Image iconType="3" name="/Icon/schoolIcon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Khoa       "/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -432,7 +432,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/myClass.png"/>
+                      <Image iconType="3" name="/Icon/ClassiCon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="L&#x1edb;p          "/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -455,7 +455,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/mySub.png"/>
+                      <Image iconType="3" name="/Icon/bookIcon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="H&#x1ecd;c Ph&#x1ea7;n  "/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -478,7 +478,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/myScor.png"/>
+                      <Image iconType="3" name="/Icon/documentIcon.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="&#x110;i&#x1ec3;m        "/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -501,7 +501,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Icon/Supplier.png"/>
+                      <Image iconType="3" name="/Icon/DaoTaoIocn.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="&#x110;&#xe0;o T&#x1ea1;o   "/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -567,7 +567,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="1" y="130" width="1280" height="620"/>
+              <AbsoluteConstraints x="1" y="130" width="1300" height="620"/>
             </Constraint>
           </Constraints>
 

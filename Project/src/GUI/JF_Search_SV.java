@@ -73,7 +73,7 @@ public class JF_Search_SV extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Tìm Kiếm Điểm Sinh Viên");
+        jLabel1.setText("TÌM KIẾM THÔNG TIN SINH VIÊN");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -90,8 +90,7 @@ public class JF_Search_SV extends javax.swing.JFrame {
         );
 
         btnClear.setFont(new java.awt.Font("Times New Roman", 0, 15)); // NOI18N
-        btnClear.setForeground(new java.awt.Color(255, 102, 102));
-        btnClear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/reload.png"))); // NOI18N
+        btnClear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/refreshIcon.png"))); // NOI18N
         btnClear.setText("Làm mới");
         btnClear.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnClear.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +114,7 @@ public class JF_Search_SV extends javax.swing.JFrame {
             }
         });
 
-        btnFind.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/Search-icon.png"))); // NOI18N
+        btnFind.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/FindIcon.png"))); // NOI18N
         btnFind.setText("Tìm Kiếm");
         btnFind.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnFind.addActionListener(new java.awt.event.ActionListener() {
