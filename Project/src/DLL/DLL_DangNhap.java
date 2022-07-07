@@ -5,7 +5,7 @@ import DBO.DBO_DANG_NHAP;
 import DAL.DAL_DangNhap;
 import java.util.ArrayList;
 
-public class DLL_DangNhap {
+private class DLL_DangNhap {
 
     DAL_DangNhap loginQue = new DAL_DangNhap();
 
