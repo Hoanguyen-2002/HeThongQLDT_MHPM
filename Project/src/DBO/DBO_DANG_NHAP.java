@@ -2,12 +2,11 @@ package DBO;
 
 public class DBO_DANG_NHAP {
 
-    public String TenDangNhap;
-    public String MatKhau;
-    public String HoTen;
-    public String Email;
-    public String Quyen;
-
+    private String TenDangNhap;
+    private String MatKhau;
+    private String HoTen;
+    private String Email;
+    private String Quyen;
     public String getTenDangNhap() {
         return TenDangNhap;
     }
