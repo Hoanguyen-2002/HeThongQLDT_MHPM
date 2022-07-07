@@ -99,6 +99,7 @@ public class JF_Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle(" Student System Manager");
+        setResizable(false);
         setSize(new java.awt.Dimension(1300, 793));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1300, 754));
