@@ -7,14 +7,14 @@ public class MyValidateData {
 
     public static boolean isNull(String st)
     {
-        st = st.trim();//loai bo cac khoang trang dsu chuoi va cuoi chuoi
+        st = st.trim();
         return (st=="");
     }
     public static boolean isNull(Object obj)
     {
         return (obj==null);
     }
-    //  !"#$%&'()*+,-./:;=>?@[\]^_`{|}~
+
     public static boolean checkPhone(String phone) {
         if (!Pattern.matches("^0[0-9]+", phone)) {
             return false;
