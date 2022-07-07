@@ -1,8 +1,8 @@
 package DBO;
 
-private class DBO_DANG_NHAP {
+public class DBO_DANG_NHAP {
 
-    public String TenDangNhap;
+    private String TenDangNhap;
     private String MatKhau;
     private String HoTen;
     private String Email;
