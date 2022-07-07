@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class DAL_Diem extends DataAccessHelper {
+private class DAL_Diem extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     DBO_DIEM diem = new DBO_DIEM();
