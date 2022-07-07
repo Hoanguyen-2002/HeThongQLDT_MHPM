@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package DBO;
 
-/**
- *
- * @author LeDung
- */
+package DBO;
 public class DBO_VIEW_DIEM_SV_MON_HOC {
 
     private String MaHocPhan;
