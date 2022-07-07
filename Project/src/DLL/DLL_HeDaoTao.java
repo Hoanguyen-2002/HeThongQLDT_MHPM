@@ -1,9 +1,6 @@
 
 package DLL;
 
-import DAL.DAL_HeDaoTao;
-import DBO.DBO_HE_DAO_TAO;
-import java.util.ArrayList;
 
 
 public class DLL_HeDaoTao {
