@@ -1,29 +1,6 @@
 
 package GUI;
-import DBO.DBO_VIEW_DIEM_SV_MON_HOC;
-import DBO.DBO_VIEW_SV_LOP;
-import DBO.DBO_VIEW_THONGKE_CANHCAO;
-import DBO.DBO_VIEW_THONGKE_HOCBONG;
-import DBO.DBO_HOC_PHAN;
-import DBO.DBO_LOP;
-import DBO.DBO_KHOA;
-import DLL.DLL_HocPhan;
-import DLL.DLL_Lop;
-import DLL.DLL_Khoa;
-import DLL.DLL_ViewDSVMH;
-import DLL.DLL_ViewSVLop;
-import DLL.DLL_ViewTKCC;
-import DLL.DLL_ViewTKHB;
-import java.util.ArrayList;
-import MeThodShow.MyMethod;
-import java.awt.event.KeyEvent;
-import java.io.IOException;
-import java.util.Vector;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JTextField;
-import javax.swing.table.DefaultTableModel;
-import jxl.write.WriteException;
+
 
 
 public class JF_ThongKe extends javax.swing.JFrame {
