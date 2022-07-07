@@ -1,18 +1,7 @@
 
 package GUI;
 
-import DBO.DBO_KHOA;
-import DLL.DLL_Khoa;
-import MeThodShow.MyMethod;
-import java.util.ArrayList;
-import java.util.Vector;
-import javax.swing.JOptionPane;
-import javax.swing.RowFilter;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
-import javax.swing.table.TableRowSorter;
+
 
 public class JP_Khoa extends javax.swing.JPanel {
 
