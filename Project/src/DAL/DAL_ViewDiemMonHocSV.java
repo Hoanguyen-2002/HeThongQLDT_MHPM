@@ -6,7 +6,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class DAL_ViewDiemMonHocSV extends DataAccessHelper {
+private class DAL_ViewDiemMonHocSV extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
