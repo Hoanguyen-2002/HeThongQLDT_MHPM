@@ -1,9 +1,6 @@
 package GUI;
 
-import DBO.DBO_DANG_NHAP;
-import DLL.DLL_DangNhap;
-import MeThodShow.MyMethod;
-import java.util.ArrayList;
+
 
 public class JF_TaiKhoan extends javax.swing.JFrame {
 
