@@ -1,7 +1,11 @@
 package DBO;
 
 public class DBO_VIEW_THONGKE_HOCBONG {
-
+    
+    private String MaSinhVien;
+    private String HoTenSinhVien;
+    private float DiemSo;
+    private String HinhThuc;
 
     public String getMaSinhVien() {
         return MaSinhVien;
