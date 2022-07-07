@@ -3,7 +3,9 @@ package DBO;
 
 
 public class DBO_Finding {
-   
+    private int SoTinChiDat;
+    private float DiemTrungBinh;
+
     public int getSoTinChiDat() {
         return SoTinChiDat;
     }
