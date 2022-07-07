@@ -13,8 +13,8 @@ public class DAL_DangNhap extends DataAccessHelper {
     DBO_DANG_NHAP log = new DBO_DANG_NHAP();
     CallableStatement store_proc = null;
     ResultSet rs = null;
-
-    public boolean getLogin(DBO_DANG_NHAP log) {
+// lay du lieu dang nhap tren DB
+    private boolean getLogin(DBO_DANG_NHAP log) {
         boolean check = false;
         try {
             getConnect();
@@ -55,7 +55,7 @@ public class DAL_DangNhap extends DataAccessHelper {
         getClose();
         return objs;
     }
-    
+    // hien thi thong bao dang nhap thanh cong (Lay du lieu tren DB)
     public DBO_DANG_NHAP showDangNhap(String tenDangNhap, String matKhau) {
         DBO_DANG_NHAP item = new DBO_DANG_NHAP();
         try {
