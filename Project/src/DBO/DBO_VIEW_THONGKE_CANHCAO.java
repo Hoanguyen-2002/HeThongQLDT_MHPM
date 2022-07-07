@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package DBO;
 
-/**
- *
- * @author LeDung
- */
 public class DBO_VIEW_THONGKE_CANHCAO {
 
     private String MaLop;
