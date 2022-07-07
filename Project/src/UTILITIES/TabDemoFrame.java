@@ -5,33 +5,19 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-/**
- * A demo class for showing how to add close buttons to tabs.
- *
- * @author Tad Harrison
- */
+
 public class TabDemoFrame extends javax.swing.JFrame {
 
     private static final Icon CLOSE_TAB_ICON = new ImageIcon(TabDemoFrame.class.getResource("../Icons/closeTabButton.png"));
     private static final Icon PAGE_ICON = new ImageIcon(TabDemoFrame.class.getResource("../Icons/Actions-document-edit-icon.png"));
     private int tabCount = 0;
 
-    /**
-     * Creates new TabDemoFrame
-     */
+ 
     public TabDemoFrame() {
         initComponents();
     }
 
-    /**
-     * Adds a component to a JTabbedPane with a little "close tab" button on the
-     * right side of the tab.
-     *
-     * @param tabbedPane the JTabbedPane
-     * @param c any JComponent
-     * @param title the title for the tab
-     * @param icon the icon for the tab, if desired
-     */
+
     public static void addClosableTab(final JTabbedPane tabbedPane, final JComponent c, final String title, final Icon icon) {
         // Add the tab to the pane without any label
         tabbedPane.addTab(null, c);
@@ -161,17 +147,9 @@ public class TabDemoFrame extends javax.swing.JFrame {
         addClosableTab(tabbedPane, scrollPane, "Tab " + tabCount, icon);
     }
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String args[]) {
-//        try {
-//            PlasticLookAndFeel laf = new Plastic3DLookAndFeel();
-//            PlasticLookAndFeel.setCurrentTheme(new ExperienceBlue());
-//            UIManager.setLookAndFeel(laf);
-//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-//            ex.printStackTrace();
-//        }
+
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
