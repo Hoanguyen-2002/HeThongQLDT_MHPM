@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GUI;
 
 import DBO.DBO_DANG_NHAP;
@@ -31,10 +27,7 @@ import javax.swing.JTabbedPane;
 import javax.swing.KeyStroke;
 import javax.swing.Timer;
 
-/**
- *
- * @author LeDung
- */
+
 public class JF_Main extends javax.swing.JFrame {
 
     MyMethod method = new MyMethod();
@@ -429,7 +422,7 @@ public class JF_Main extends javax.swing.JFrame {
     private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
 
 
-    }//GEN-LAST:event_jMenu3ActionPerformed
+    }
 
     private void btnDangNhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDangNhapActionPerformed
         JF_Login jf_log = new JF_Login(this);
@@ -459,7 +452,7 @@ public class JF_Main extends javax.swing.JFrame {
         jtbHienThi.addTab(null, c);
         int pos = jtbHienThi.indexOfComponent(c);
 
-        // Make a small JPanel with the layout(that will space things 5px apart) and make it non-opaque
+
         JPanel pnlTab = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 5));
         pnlTab.setOpaque(false);
 
@@ -558,23 +551,6 @@ public class JF_Main extends javax.swing.JFrame {
         addClosableTab(jtbHienThi, JP_DaoTao.getInstance(), "Chương Trình Đào Tạo", PAGE_ICON);
     }//GEN-LAST:event_btnDaoTaoActionPerformed
 
-//    JF_DaoTao jf_dt = new JF_DaoTao();
-//    JF_TaiKhoan jf_tk = new JF_TaiKhoan(this);
-//    JF_ImportDB jf_i = new JF_ImportDB();
-//    JF_SinhVien jf_sv = new JF_SinhVien();
-//    JF_Diem jf_d = new JF_Diem();
-//    JF_GiangVien jf_gv = new JF_GiangVien();
-//    JF_Khoa jf_kh = new JF_Khoa();
-//    JF_Lop jf_lp = new JF_Lop();
-//    JF_HocPhan jf_hp = new JF_HocPhan();
-//
-//    JP_DaoTao jp_dt = new JP_DaoTao();
-//    JP_Diem jp_d = new JP_Diem();
-//    //JP_GiangVien jp_gv = new JP_GiangVien();
-//    JP_HocPhan jp_hp = new JP_HocPhan();
-//    JP_Khoa jp_kh = new JP_Khoa();
-//    JP_Lop jp_lp = new JP_Lop();
-//    JP_SinhVien jp_sv = new JP_SinhVien();
     JF_TaiKhoan jf_tk = null;
     
 
@@ -617,9 +593,7 @@ public class JF_Main extends javax.swing.JFrame {
         jf_thongke.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
