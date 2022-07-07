@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 
-public class DAL_HeDaoTao extends DataAccessHelper {
+ class DAL_HeDaoTao extends DataAccessHelper {
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
     ResultSet rs = null;
