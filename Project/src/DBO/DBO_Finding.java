@@ -15,11 +15,11 @@ public class DBO_Finding {
     }
 
     public float getDiemTrungBinh() {
-        return DiemTrungBinh;
+        return Diem;
     }
 
     public void setDiemTrungBinh(float DiemTrungBinh) {
-        this.DiemTrungBinh = DiemTrungBinh;
+        this.Diem = DiemTrungBinh;
     }
     
 }
