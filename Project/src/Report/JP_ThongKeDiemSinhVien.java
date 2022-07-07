@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Report;
 
 import DAL.DataAccessHelper;
@@ -18,10 +14,7 @@ import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.view.JasperViewer;
 
-/**
- *
- * @author LeDung
- */
+
 public class JP_ThongKeDiemSinhVien extends javax.swing.JPanel {
 
 
