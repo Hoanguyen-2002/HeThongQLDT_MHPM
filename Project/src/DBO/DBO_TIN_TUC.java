@@ -2,10 +2,7 @@ package DBO;
 
 public class DBO_TIN_TUC {
 
-    private int MaTinTuc;
-    private String TieuDe;
-    private String NoiDung;
-    private String TrangThai;
+   
 
     public int getMaTinTuc() {
         return MaTinTuc;
