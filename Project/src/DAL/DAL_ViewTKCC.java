@@ -6,7 +6,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-private class DAL_ViewTKCC extends DataAccessHelper {
+public class DAL_ViewTKCC extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
