@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DAL_Khoa extends DataAccessHelper {
+ class DAL_Khoa extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
