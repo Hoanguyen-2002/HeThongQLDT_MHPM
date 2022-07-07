@@ -9,7 +9,7 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 
 
-public class DAL_SinhVien extends DataAccessHelper {
+ class DAL_SinhVien extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     DBO_SINH_VIEN diem = new DBO_SINH_VIEN();
