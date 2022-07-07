@@ -2,7 +2,14 @@ package DBO;
 
 public class DBO_GIANG_VIEN {
 
-    
+    private String MaGiangVien;
+    private String HoTenGiangVien;
+    private boolean GioiTinh;
+    private String SoDienThoai;
+    private String NoiSinh;
+    private String Email;
+    private String MaKhoa;
+    private String TrangThai;
 
     public String getMaGiangVien() {
         return MaGiangVien;
