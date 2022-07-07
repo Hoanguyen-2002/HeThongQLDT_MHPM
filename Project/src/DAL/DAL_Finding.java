@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import DBO.DBO_Finding;
 import java.util.ArrayList;
 
- class DAL_Finding extends DataAccessHelper {
+public class DAL_Finding extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
