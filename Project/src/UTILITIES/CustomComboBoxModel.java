@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package UTILITIES;
 
 import java.sql.ResultSet;
@@ -9,10 +6,7 @@ import java.sql.SQLException;
 import java.util.Vector;
 import javax.swing.DefaultComboBoxModel;
 
-/**
- *
- * @author Mr.Minh
- */
+
 public class CustomComboBoxModel extends DefaultComboBoxModel {
 
     public CustomComboBoxModel() {
