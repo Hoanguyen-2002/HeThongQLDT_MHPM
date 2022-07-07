@@ -1,13 +1,6 @@
 package DAL;
 
-import DBO.DBO_SINH_VIEN;
-import MeThodShow.MyMethod;
-import java.sql.CallableStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Date;
-import javax.swing.JOptionPane;
+
 
 public class DAL_SinhVien extends DataAccessHelper {
 
