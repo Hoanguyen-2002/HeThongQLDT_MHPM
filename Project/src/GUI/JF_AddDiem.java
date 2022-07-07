@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GUI;
 
 import DLL.DLL_SinhVien;
@@ -37,12 +33,10 @@ public class JF_AddDiem extends javax.swing.JFrame {
         initComponents();
         d = themdiem;
     }
-//    public JF_AddDiem() {
-//        initComponents();
-//    }
+
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -280,11 +274,11 @@ public class JF_AddDiem extends javax.swing.JFrame {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void btnThoatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThoatActionPerformed
         this.dispose();
-    }//GEN-LAST:event_btnThoatActionPerformed
+    }
 
     private void btnCheckActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCheckActionPerformed
         String mssv = txtMaSinhVien.getText();
@@ -360,24 +354,13 @@ public class JF_AddDiem extends javax.swing.JFrame {
                     d.BidingDataDiem();
                     this.dispose();
                     
-//                    JF_Diem jf_diem = new JF_Diem();
-                            //                    jf_diem.setVisible(true);
-                            //                    jf_diem.setLocation(200, 100);
-                            //                    this.setVisible(false);
+
                 } else {
                     method.showMessegaNo("Thêm Thất Bại !");
                 }
             }
         }
     }//GEN-LAST:event_btnThemActionPerformed
-
-    private void cbTL2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbTL2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cbTL2ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCheck;
