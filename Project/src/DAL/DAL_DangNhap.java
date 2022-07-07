@@ -14,7 +14,7 @@ public class DAL_DangNhap extends DataAccessHelper {
     CallableStatement store_proc = null;
     ResultSet rs = null;
 
-    public boolean getLogin(DBO_DANG_NHAP log) {
+    private boolean getLogin(DBO_DANG_NHAP log) {
         boolean check = false;
         try {
             getConnect();
