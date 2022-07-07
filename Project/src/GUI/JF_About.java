@@ -9,7 +9,7 @@ package GUI;
  *
  * @author LeDung
  */
-public class JF_About extends javax.swing.JFrame {
+private class JF_About extends javax.swing.JFrame {
 
     /**
      * Creates new form JF_About
