@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class DAL_DangNhap extends DataAccessHelper {
+private class DAL_DangNhap extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     DBO_DANG_NHAP log = new DBO_DANG_NHAP();
