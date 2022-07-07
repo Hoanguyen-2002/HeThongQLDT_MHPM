@@ -139,7 +139,7 @@
               <Color blue="33" green="33" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Sinh Vi&#xea;n : Tr&#x1ea7;n V&#x103;n Duy"/>
+            <Property name="text" type="java.lang.String" value="Sinh Vi&#xea;n : Nguy&#x1ec5;n V&#x103;n Duy"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
