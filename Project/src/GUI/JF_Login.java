@@ -151,15 +151,7 @@ public class JF_Login extends javax.swing.JFrame {
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             send();
         }
-    }//GEN-LAST:event_txtMatKhauKeyReleased
-
-    /**
-     * @param args the command line arguments
-     */
-    
-    
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
     private javax.swing.JButton btnCancel;
     private javax.swing.JButton btnLogin;
     private javax.swing.JLabel jLabel1;
@@ -167,5 +159,5 @@ public class JF_Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPasswordField txtMatKhau;
     private javax.swing.JTextField txtTaiKhoan;
-    // End of variables declaration//GEN-END:variables
+
 }
