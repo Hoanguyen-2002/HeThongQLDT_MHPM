@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GUI;
 
 import DBO.DBO_HE_DAO_TAO;
@@ -13,15 +9,9 @@ import java.util.Vector;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author LeDung
- */
 public class JP_DaoTao extends javax.swing.JPanel {
 
-    /**
-     * Creates new form JP_DaoTao
-     */
+    
     ArrayList<DBO_HE_DAO_TAO> lstHeDaoTao = null;
     DLL_HeDaoTao dLL_HeDaoTao = new DLL_HeDaoTao();
     MeThodShow.MyMethod method = new MyMethod();
