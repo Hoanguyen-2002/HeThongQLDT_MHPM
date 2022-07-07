@@ -7,6 +7,7 @@ public class DBO_DANG_NHAP {
     private String HoTen;
     private String Email;
     private String Quyen;
+    
     public String getTenDangNhap() {
         return TenDangNhap;
     }
