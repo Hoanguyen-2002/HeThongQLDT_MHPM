@@ -1,15 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package UTILITIES;
 
 import java.util.regex.Pattern;
 
-/**
- *
- * @author Anh Java
- */
 public class MyValidateData {
 
     public static boolean isNull(String st)
