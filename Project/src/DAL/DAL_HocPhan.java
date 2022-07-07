@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 
- class DAL_HocPhan extends DataAccessHelper {
+public class DAL_HocPhan extends DataAccessHelper {
 
     MyMethod method = new MyMethod();
     CallableStatement store_proc = null;
