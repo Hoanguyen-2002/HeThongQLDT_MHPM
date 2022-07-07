@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-private class DataAccessHelper {
+public class DataAccessHelper {
 
     protected Connection cnn;
     //netstat -a -P TCP
