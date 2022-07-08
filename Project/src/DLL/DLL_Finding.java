@@ -11,4 +11,5 @@ public class DLL_Finding {
     public ArrayList<DBO_Finding> getFinding(String mssv) {
         return dAL_Finding.getFinding(mssv);
     }
+    
 }
