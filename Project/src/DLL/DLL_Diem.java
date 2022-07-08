@@ -1,5 +1,6 @@
 package DLL;
 
+
 import DBO.DBO_DIEM;
 import DAL.DAL_Diem;
 import java.util.ArrayList;
@@ -42,4 +43,5 @@ public class DLL_Diem {
     public boolean Delete(String mssv, String mahocphan){
         return dAL_Diem.Delete(mssv, mahocphan);
     }
+    
 }
